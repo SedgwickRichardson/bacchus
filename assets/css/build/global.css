@@ -8556,15 +8556,6 @@ td.visible-print {
   content: "\f195";
 }
 
-/*
- * Author: Carlos Alvarez
- * URL: http://alvarez.is
- *
- * Project Name: FLATTY - Free Bootstrap 3 Theme
- * Version: 1.0
- * URL: http://blacktie.co
- */
-
 body {
   font-family: 'Lato', sans-serif;
   font-size: 16px;
@@ -8734,4 +8725,113 @@ footer {
 footer strong {
   display: block;
   margin-bottom: 10px;
+}
+
+.prototype {
+  overflow: hidden;
+  background: #95a5a5;
+}
+
+.prototype .container {
+  position: relative;
+}
+
+.prototype .linklist {
+  position: absolute;
+  top: 160px;
+  left: 810px;
+}
+
+.prototype .linklist a {
+  color: white;
+  cursor: pointer;
+}
+
+.prototype .phone {
+  position: relative;
+  left: 50%;
+  width: 486px;
+  margin-left: -243px;
+}
+
+.prototype .phone .skin {
+  top: 0;
+  left: 0;
+}
+
+.prototype .phone .link {
+  position: absolute;
+  z-index: 3000;
+  width: 70px;
+  height: 50px;
+  cursor: pointer;
+  background: white;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+.prototype .phone .link.link1 {
+  bottom: 162px;
+  left: 56px;
+}
+
+.prototype .phone .link.link2 {
+  bottom: 162px;
+  left: 126px;
+}
+
+.prototype .phone .link.link3 {
+  bottom: 162px;
+  left: 203px;
+}
+
+.prototype .phone .link.link4 {
+  bottom: 162px;
+  left: 280px;
+}
+
+.prototype .phone .link.link5 {
+  bottom: 162px;
+  left: 360px;
+}
+
+.prototype .phone .fix-head {
+  position: absolute;
+  top: 162px;
+  left: 56px;
+  z-index: 2000;
+  display: block;
+}
+
+.prototype .phone .fix-head img {
+  width: 366px;
+  height: auto;
+}
+
+.prototype .phone .fix-bottom {
+  position: absolute;
+  bottom: 162px;
+  left: 56px;
+  z-index: 2000;
+  display: block;
+}
+
+.prototype .phone .fix-bottom img {
+  width: 366px;
+  height: auto;
+}
+
+.prototype .phone .screenwrapper {
+  position: absolute;
+  top: 163px;
+  left: 56px;
+  width: 366px;
+  height: 640px;
+  overflow: auto;
+  background: white;
+}
+
+.prototype .phone .screenwrapper img {
+  width: 100%;
+  height: auto;
 }
