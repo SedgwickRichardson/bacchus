@@ -1,3 +1,5 @@
+# for github deploy instructions: http://jekyllrb.com/docs/github-pages/
+
 name: Your New Jekyll Site
 markdown: redcarpet
 pygments: true
