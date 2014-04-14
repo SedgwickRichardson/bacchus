@@ -8710,7 +8710,7 @@ i {
 #headerwrap h1 {
   margin-top: 60px;
   margin-bottom: 15px;
-  font-size: 45px;
+  font-size: 36px;
   font-weight: 300;
   letter-spacing: 1px;
   color: white;
@@ -8725,6 +8725,12 @@ footer {
 footer strong {
   display: block;
   margin-bottom: 10px;
+}
+
+.premium {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.4em;
 }
 
 .prototype {

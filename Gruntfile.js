@@ -1,15 +1,15 @@
 module.exports = function(grunt) {
 
-    // 1. All configuration goes here 
+    // 1. All configuration goes here
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
-        
+
         shell: {
             jekyllBuild: {
                 command: 'bundle exec jekyll build'
             },
             jekyllServe: {
-              command: 'bundle exec jekyll serve --baseurl ""'  
+              command: 'bundle exec jekyll serve --baseurl ""'
             }
         },
         concat: {
@@ -56,9 +56,10 @@ module.exports = function(grunt) {
           }
         },
         watch: {
-            files: [ 
+            files: [
                 '_layouts/*.html',
                 '_includes/*.html',
+                'wineries/*.html',
                 '*.html',
                 'assets/css/src/*.less',
                 'assets/css/src/bootstrap/*.less',
