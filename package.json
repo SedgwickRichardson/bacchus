@@ -25,6 +25,6 @@
     "grunt-contrib-imagemin": "^0.6.1",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-recess": "^0.6.1",
-    "grunt-shell": "^0.6.4"
+    "grunt-shell": "^0.7.0"
   }
 }
